@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Title{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
+  color: brown;
+  font-family: 'Dancing Script', cursive;
 }
-
-.App-link {
-  color: #61dafb;
+.card-img-top{
+max-width: 500px;
+max-height: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+margin-top: 20%;
+margin-left: 10%;
+margin-right: 10%;
+}
+.card :hover{
+  transform: scale(1.15);
+}
+.row{
+  margin-top: px;
+}
+.form-select{
+margin-left: 230%;
+margin-top: 7%;
 }
